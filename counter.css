@@ -1,0 +1,58 @@
+body{
+    font-family:cursive;
+    font-weight: bold;
+     background-image: url("islamic.jpg");
+     background-size: cover;
+     height: 100vh;
+     color: rgb(137, 145, 79);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+     
+}
+#container{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    backdrop-filter: blur(5px); 
+    background-color: rgba(211, 212, 215, 0.32);
+    border-radius: 40px;
+    border: 10px solid rgba(41, 179, 177, 0.157);
+}
+
+
+
+h2{
+    color: rgba(0, 225, 255, 0.859);
+    font-size: 50px;
+    margin-top: 0px;
+    
+}
+button{
+    
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:rgb(176, 146, 146);
+    font-weight:bolder;
+    width:200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+#increment-btn{
+    background: rgb(44, 84, 44);
+}
+#save-btn{
+    background: rgb(68, 18, 18);
+}
+button:hover{
+   width: 210px;
+   color: rgb(5, 220, 248);
+}
+p{
+
+ font-size: larger;
+ color: black;
+}
